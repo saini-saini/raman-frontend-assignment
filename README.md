@@ -4,6 +4,25 @@ A pixel-perfect, highly responsive frontend implementation of the **NEXTCAR Auto
 
 ---
 
+## 📸 Visual Demonstration & Screenshots
+
+### 1. Dark Mode Dashboard (Default)
+![Dark Mode Hero](public/screenshots/dark-mode-hero.png)
+
+### 2. Full-Width Telemetry Graph (Dark Mode)
+![Telemetry Graph Dark](public/screenshots/telemetry-graph-dark.png)
+
+### 3. Interactive Navigation & Hover Tooltip
+![Navigation Hover Tooltip](public/screenshots/nav-tooltip-hover.png)
+
+### 4. Light Mode Dashboard
+![Light Mode Hero](public/screenshots/light-mode-hero.png)
+
+### 5. Full-Width Telemetry Graph (Light Mode)
+![Telemetry Graph Light](public/screenshots/telemetry-graph-light.png)
+
+---
+
 ## 🚀 How to Run the Project
 
 ### 1. Prerequisites
@@ -12,6 +31,10 @@ Ensure you have **Node.js (v18+)** and **npm** installed on your system.
 ### 2. Installation
 Clone the repository and install project dependencies:
 ```bash
+# Clone the repository
+git clone https://github.com/saini-saini/raman-frontend-assignment.git
+cd raman-frontend-assignment
+
 # Install dependencies
 npm install
 ```
@@ -74,7 +97,9 @@ npm run preview
 ## 📁 Project Structure
 
 ```
-c:/raman/raman-frontend-assignment/
+raman-frontend-assignment/
+├── public/
+│   └── screenshots/         # Working visual demonstration screenshots
 ├── src/
 │   ├── assets/              # High-res image assets (car cutout, spotlight, sparkles, logo)
 │   ├── components/          # Reusable UI components
@@ -107,5 +132,6 @@ c:/raman/raman-frontend-assignment/
 
 ---
 
-## 🎨 Figma Reference
-- **Design Link:** [Frontend Assignment Figma Design](https://www.figma.com/design/ri2lwqcK23HHjebpMMUQkY/Frontend-Assignment)
+## 🎨 Figma & Repository References
+- **Working Repository:** [saini-saini/raman-frontend-assignment](https://github.com/saini-saini/raman-frontend-assignment)
+- **Figma Design:** [Frontend Assignment Figma Design](https://www.figma.com/design/ri2lwqcK23HHjebpMMUQkY/Frontend-Assignment)
