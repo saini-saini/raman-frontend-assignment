@@ -78,13 +78,13 @@ function NavButton({ item, position, index }) {
         type="button"
         aria-label={item.label}
         aria-current={item.active ? 'page' : undefined}
-        className="premium-icon-btn flex items-center justify-center h-[52px] w-[52px] text-white/80 hover:text-white hover:bg-racing-red hover:shadow-[0_0_20px_rgba(227,30,36,0.75)] hover:scale-105 transition-all duration-300 group"
+        className="premium-icon-btn flex items-center justify-center h-[52px] w-[52px] text-black/75 dark:text-white/80 hover:text-white hover:bg-racing-red hover:shadow-[0_0_20px_rgba(227,30,36,0.75)] hover:scale-105 transition-all duration-300 group"
       >
         <NavIcon
           name={item.icon}
-          className="relative z-10 h-[22px] w-[22px] text-white transition-colors duration-300 group-hover:scale-110"
+          className="relative z-10 h-[22px] w-[22px] text-current transition-colors duration-300 group-hover:scale-110"
         />
-        <span className="pointer-events-none absolute inset-[3px] rounded-full bg-[radial-gradient(circle_at_30%_18%,rgba(255,255,255,0.4),transparent_55%)] dark:bg-[radial-gradient(circle_at_30%_18%,rgba(255,255,255,0.22),transparent_55%)] group-hover:opacity-0 transition-opacity duration-300" />
+        <span className="pointer-events-none absolute inset-[3px] rounded-full bg-[radial-gradient(circle_at_30%_18%,rgba(0,0,0,0.06),transparent_55%)] dark:bg-[radial-gradient(circle_at_30%_18%,rgba(255,255,255,0.22),transparent_55%)] group-hover:opacity-0 transition-opacity duration-300" />
       </button>
     </div>
   )
@@ -124,7 +124,7 @@ export function MobileNavigation({ leftItems, rightItems }) {
           key={item.id}
           type="button"
           aria-label={item.label}
-          className="flex h-10 w-10 items-center justify-center rounded-full text-white/80 hover:text-white hover:bg-racing-red hover:shadow-[0_0_16px_rgba(227,30,36,0.75)] transition-all duration-300"
+          className="flex h-10 w-10 items-center justify-center rounded-full text-black/75 dark:text-white/80 hover:text-white hover:bg-racing-red hover:shadow-[0_0_16px_rgba(227,30,36,0.75)] transition-all duration-300"
         >
           <NavIcon name={item.icon} className="h-5 w-5 text-current" />
         </button>
