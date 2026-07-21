@@ -6,19 +6,24 @@ A pixel-perfect, highly responsive frontend implementation of the **NEXTCAR Auto
 
 ## 📸 Visual Demonstration & Screenshots
 
-### 1. Dark Mode Dashboard (Default)
+### 1. Dark Mode Dashboard (Desktop View)
 ![Dark Mode Hero](public/screenshots/dark-mode-hero.png)
 
 ### 2. Full-Width Telemetry Graph (Dark Mode)
 ![Telemetry Graph Dark](public/screenshots/telemetry-graph-dark.png)
 
-### 3. Interactive Navigation & Hover Tooltip
+### 3. Mobile View Layouts (348px - 768px)
+| Mobile Hero & Floating Bottom Nav | Mobile Telemetry & Stats Stack |
+|---|---|
+| ![Mobile Hero View](public/screenshots/mobile-hero-view.png) | ![Mobile Telemetry View](public/screenshots/mobile-telemetry-view.png) |
+
+### 4. Interactive Navigation & Hover Tooltip
 ![Navigation Hover Tooltip](public/screenshots/nav-tooltip-hover.png)
 
-### 4. Light Mode Dashboard
+### 5. Light Mode Dashboard
 ![Light Mode Hero](public/screenshots/light-mode-hero.png)
 
-### 5. Full-Width Telemetry Graph (Light Mode)
+### 6. Full-Width Telemetry Graph (Light Mode)
 ![Telemetry Graph Light](public/screenshots/telemetry-graph-light.png)
 
 ---
@@ -99,7 +104,7 @@ npm run preview
 ```
 raman-frontend-assignment/
 ├── public/
-│   └── screenshots/         # Working visual demonstration screenshots
+│   └── screenshots/         # Working visual demonstration screenshots (Desktop & Mobile)
 ├── src/
 │   ├── assets/              # High-res image assets (car cutout, spotlight, sparkles, logo)
 │   ├── components/          # Reusable UI components
