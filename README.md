@@ -4,6 +4,12 @@ A pixel-perfect, highly responsive frontend implementation of the **NEXTCAR Auto
 
 ---
 
+### 🌐 **Live Deployment**
+🔗 **Live URL:** [https://cozy-boba-c48aec.netlify.app/](https://cozy-boba-c48aec.netlify.app/)
+
+---
+
+
 ## 📸 Visual Demonstration & Screenshots
 
 ### 1. Dark Mode Dashboard (Desktop View)
@@ -138,5 +144,6 @@ raman-frontend-assignment/
 ---
 
 ## 🎨 Figma & Repository References
+- **Live Deployment:** [cozy-boba-c48aec.netlify.app](https://cozy-boba-c48aec.netlify.app/)
 - **Working Repository:** [saini-saini/raman-frontend-assignment](https://github.com/saini-saini/raman-frontend-assignment)
 - **Figma Design:** [Frontend Assignment Figma Design](https://www.figma.com/design/ri2lwqcK23HHjebpMMUQkY/Frontend-Assignment)
